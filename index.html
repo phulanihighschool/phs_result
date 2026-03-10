@@ -32,7 +32,7 @@
         }
 
         /* =========================================
-           SCREEN UI: ORIGINAL DASHBOARD STYLES
+           SCREEN UI: DASHBOARD & SEARCH
            ========================================= */
         .masthead {
             background: repeating-linear-gradient(90deg, var(--navy-900) 0, var(--navy-900) 70px, var(--navy-800) 70px, var(--navy-800) 72px);
@@ -91,51 +91,72 @@
         .btn-print { background: linear-gradient(160deg, #8c6622, var(--gold-500)); color: #fff; width: auto; min-width: 128px; }
         .btn-another { background: #ffffff; color: #122e4f; border: 1px solid #aac0d8; width: auto; min-width: 168px; }
 
-        .result-actions { display: none; justify-content: center; gap: 10px; max-width: 210mm; margin: 0 auto 12px; }
-
         .error { display: none; color: var(--danger); font-weight: 700; font-size: 14px; margin-top: 8px; }
 
+        /* =========================================
+           SCREEN UI: FULL-PAGE RESULT CARD (FLEX)
+           ========================================= */
         .report-wrapper { display: none; }
+        .result-actions { display: none; }
 
         .screen-report {
-            max-width: 210mm; margin: 12px auto 20px;
+            width: 100%;
+            max-width: 1000px; /* Widened to fill screen nicely */
+            margin: 0 auto;
             background: linear-gradient(180deg, #ffffff 0%, #f6f9fd 100%);
-            padding: 26px; border: 1px solid #c7d4e3; border-radius: 14px;
+            padding: 2vh 3vw; /* Scales with screen height and width */
+            border: 1px solid #c7d4e3;
+            border-radius: 14px;
             box-shadow: 0 14px 30px rgba(8, 36, 79, 0.12);
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Stretches to fill available space */
         }
 
-        .result-title { margin: 0 0 12px; text-align: center; font-size: 20px; font-weight: 800; letter-spacing: .6px; color: #12345f; }
+        .result-title { margin: 0 0 1.2vh; text-align: center; font-size: clamp(18px, 2.5vh, 24px); font-weight: 800; letter-spacing: .6px; color: #12345f; }
 
-        .student-ribbon { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
-        .student-pill { border: 1px solid #cbd9e7; border-radius: 8px; background: #f5f8fc; padding: 10px 12px; display: flex; flex-direction: column; justify-content: center; }
-        .student-pill .label { font-size: 11px; text-transform: uppercase; color: #39516d; font-weight: 700; margin-bottom: 4px; letter-spacing: .5px; }
-        .student-pill .value { font-size: 18px; font-weight: 800; color: #102e51; line-height: 1.1; }
+        .student-ribbon { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 1.2vh; }
+        .student-pill { border: 1px solid #cbd9e7; border-radius: 8px; background: #f5f8fc; padding: 1vh 1.5vw; display: flex; flex-direction: column; justify-content: center; }
+        .student-pill .label { font-size: 11px; text-transform: uppercase; color: #39516d; font-weight: 700; margin-bottom: 3px; letter-spacing: .5px; }
+        .student-pill .value { font-size: clamp(16px, 2vh, 20px); font-weight: 800; color: #102e51; line-height: 1.1; }
 
-        .marks-panel { margin-bottom: 12px; }
-        table { width: 100%; border-collapse: collapse; margin-bottom: 0; }
-        th, td { border: 1px solid #b8c8d9; padding: 12px 15px; text-align: center; }
-        th { background-color: #12345f; color: #fff; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
-        td.subject-name { text-align: left; font-weight: 500; }
+        .marks-panel { flex: 1; display: flex; flex-direction: column; margin-bottom: 1.2vh; min-height: 0; }
+        table { width: 100%; height: 100%; /* Table takes all remaining height */ border-collapse: collapse; margin-bottom: 0; }
+        th, td { border: 1px solid #b8c8d9; padding: 1vh 1vw; text-align: center; font-size: clamp(13px, 1.8vh, 16px); }
+        th { background-color: #12345f; color: #fff; text-transform: uppercase; letter-spacing: 0.5px; }
+        td.subject-name { text-align: left; font-weight: 600; }
         tbody tr:nth-child(even) { background-color: #edf3f9; }
 
         .result-snapshot {
             border: 1px solid #b8c8d9; border-radius: 10px;
             background: linear-gradient(180deg, #edf3fa 0%, #e3edf8 100%);
-            padding: 10px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; align-items: stretch;
+            padding: 1vh; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; align-items: stretch;
         }
-        .snapshot-item { background: #fff; border: 1px solid #c3d1df; border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; justify-content: center; text-align: center; }
+        .snapshot-item { background: #fff; border: 1px solid #c3d1df; border-radius: 8px; padding: 1vh 1vw; display: flex; flex-direction: column; justify-content: center; text-align: center; }
         .snapshot-item .label { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; color: #415972; margin-bottom: 3px; font-weight: 700; }
-        .snapshot-item .value { font-size: 18px; font-weight: 800; color: #0d2c50; line-height: 1.1; }
+        .snapshot-item .value { font-size: clamp(16px, 2.5vh, 22px); font-weight: 800; color: #0d2c50; line-height: 1.1; }
 
         .status-badge { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; border-radius: 999px; font-size: 14px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; border: 1px solid transparent; padding: 0 12px; }
         .status-pass { background: #dbf2e5; color: #0d683c; border-color: #88c6a0; }
         .status-fail { background: #f8e1e1; color: #9e2c2c; border-color: #d59b9b; }
 
-        body.result-mode { background: #f5f7fb; height: 100vh; overflow: hidden; }
+        /* =========================================
+           BODY CLASSES FOR RESULT DISPLAY (NO SCROLL)
+           ========================================= */
+        body.result-mode { background: #f5f7fb; height: 100vh; overflow: hidden; } /* Prevents scrolling */
         body.result-mode .search-panel { display: none !important; }
-        body.result-mode .layout { margin-top: 0; height: calc(100vh - 118px); padding-top: 10px; padding-bottom: 10px; max-width: none; width: 100%; display: grid; grid-template-rows: 1fr auto; }
-        body.result-mode .report-wrapper { display: flex; justify-content: stretch; align-items: flex-start; overflow: hidden; width: 100%; flex-direction: column;}
-        body.result-mode .result-actions { display: flex; margin-top: 8px; margin-bottom: 0; padding-top: 8px; border-top: 1px solid #d3dde8; width: 100%; max-width: none; }
+        body.result-mode .layout { 
+            margin: 0 auto; 
+            height: calc(100vh - 125px); /* Perfectly fits under the masthead */
+            padding-top: 12px; 
+            padding-bottom: 12px; 
+            max-width: 1200px; 
+            width: 100%; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        body.result-mode .report-wrapper { flex: 1; display: flex; justify-content: center; align-items: stretch; width: 100%; min-height: 0; }
+        body.result-mode .result-actions { display: flex; justify-content: center; gap: 10px; margin-top: 12px; padding-top: 12px; border-top: 1px solid #d3dde8; width: 100%; max-width: 1000px; margin-left: auto; margin-right: auto; }
         
         /* The print layout is strictly hidden on screen */
         .print-report { display: none; }
@@ -152,7 +173,7 @@
            PRINT UI: FORMAL DOCUMENT STYLES
            ========================================= */
         @media print {
-            @page { size: A4 portrait; margin: 10mm; }
+            @page { size: A4; margin: 0; }
             
             body { background: #fff; margin: 0; padding: 0; }
             
@@ -160,79 +181,73 @@
             .masthead, .search-panel, .result-actions, .screen-report { display: none !important; }
             
             /* Show and format print elements */
-            .report-wrapper { display: block !important; overflow: visible !important; height: auto !important; }
-            .print-report { 
-                display: block; 
+            .report-wrapper { display: block !important; overflow: visible !important; height: auto !important; padding: 0; margin: 0; }
+            
+            .print-report {
+                display: flex;
                 position: relative;
-                width: 100%;
-                min-height: 270mm;
-                padding: 12mm;
-                background: white;
-                border: 6px double #071c3a;
-                box-sizing: border-box;
+                width: calc(210mm - 16mm);
+                min-height: calc(297mm - 16mm);
+                margin: 8mm;
+                border: 3px solid #000;
+                box-shadow: inset 0 0 0 2px #000;
+                background: #fff;
                 -webkit-print-color-adjust: exact;
-                color-adjust: exact;
+                print-color-adjust: exact;
+                flex-direction: column;
+                box-sizing: border-box;
             }
 
-            /* Watermark Image Layered Behind */
-            .print-watermark {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 450px;
-                opacity: 0.08;
-                z-index: -1;
-            }
-
-            .print-header {
-                text-align: center;
-                border-bottom: 2px solid #071c3a;
-                padding-bottom: 15px;
-                margin-bottom: 25px;
-            }
-
-            .print-header img { width: 80px; margin-bottom: 8px; }
-            .print-header h1 { font-family: 'Cinzel', serif; font-size: 28px; color: #071c3a; margin: 0 0 5px; }
-            .print-header p { font-size: 14px; font-weight: 700; margin: 0 0 10px; letter-spacing: 1px; }
-            .print-header .session { background: #071c3a; color: white; display: inline-block; padding: 4px 15px; font-size: 13px; font-weight: bold; text-transform: uppercase; }
-
-            .print-student-info {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 15px;
-                margin-bottom: 25px;
-                font-size: 15px;
-            }
-            .print-info-row { border-bottom: 1px dashed #ccc; padding-bottom: 4px; }
-            .print-info-row strong { color: #333; display: inline-block; width: 120px; }
-
-            .print-report table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
-            .print-report th { background-color: #f0f0f0 !important; color: #000; border: 1px solid #000; padding: 10px; font-weight: bold; font-size: 13px; }
-            .print-report td { border: 1px solid #000; padding: 10px; text-align: center; font-size: 14px; }
-            .print-report td.subject-name { text-align: left; font-weight: bold; }
-
-            .print-summary {
+            .print-inner {
+                flex: 1;
                 display: flex;
+                flex-direction: column;
                 justify-content: space-between;
-                border: 2px solid #000;
-                padding: 15px 25px;
-                margin-bottom: 50px;
-                background-color: #fafafa !important;
+                padding: 20mm 7mm 5mm;
             }
-            .print-summary div { text-align: center; }
-            .print-summary span.lbl { display: block; font-size: 11px; text-transform: uppercase; font-weight: bold; color: #555; }
-            .print-summary span.val { display: block; font-size: 20px; font-weight: 800; color: #000; margin-top: 5px; }
 
-            .print-signatures {
+            .print-top {
+                flex: 1;
                 display: flex;
-                justify-content: space-between;
-                align-items: flex-end;
-                padding: 0 20px;
+                flex-direction: column;
+                gap: 6mm;
             }
-            .print-sig-block { text-align: center; width: 180px; }
-            .print-sig-block img { width: 140px; height: auto; margin-bottom: -5px; mix-blend-mode: multiply; }
-            .print-sig-line { border-top: 1px solid #000; padding-top: 5px; font-weight: bold; font-size: 14px; }
+
+            .print-header { text-align: center; margin-bottom: 0; }
+            .print-header img.logo { width: 96px; height: 96px; object-fit: contain; display: block; margin: 0 auto 7px; }
+            .print-header h1 { font-family: 'Cinzel', serif; font-size: 24px; color: #111; margin: 0 0 3px; letter-spacing: 2px; text-transform: uppercase; }
+            .print-header .school-meta { font-size: 12.5px; font-weight: 700; color: #222; letter-spacing: 0.4px; margin: 0 0 1px; }
+            .print-header .school-address { font-size: 11.5px; font-weight: 500; color: #555; margin: 0 0 24px; }
+            .print-header hr.rule { border: none; border-top: 1.5px solid #111; margin: 0; }
+            .print-header .session-badge {
+                display: block; padding: 6px 0; font-size: 12px; font-weight: 800; text-transform: uppercase;
+                letter-spacing: 1.3px; line-height: 1.9; color: #111;
+                border-left: 1.5px solid #111; border-right: 1.5px solid #111;
+            }
+
+            .print-student-info { display: grid; grid-template-columns: 1fr 1fr; gap: 7px 20px; margin-bottom: 0; font-size: 13.5px; }
+            .print-info-row { border-bottom: 1px solid #ccc; padding: 3px 0 5px; color: #111; }
+            .print-info-row strong { display: inline-block; width: 124px; font-weight: 700; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.4px; color: #555; }
+
+            table.marks-table { width: 100%; border-collapse: collapse; margin-bottom: 0; }
+            .marks-table th { background-color: #111 !important; color: #fff !important; border: 1px solid #111; padding: 9px 11px; font-weight: 700; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.5px; }
+            .marks-table td { border: 1px solid #aaa; padding: 10px 11px; text-align: center; font-size: 13.5px; color: #111; }
+            .marks-table td.subject-name { text-align: left; font-weight: 600; }
+            .marks-table tbody tr:nth-child(even) td { background-color: #ececec !important; }
+
+            .print-summary { display: flex; justify-content: space-evenly; border: 1.5px solid #111; padding: 11px 16px; margin-bottom: 0; background-color: #f2f2f2 !important; }
+            .print-summary div { text-align: center; padding: 0 16px; }
+            .print-summary div + div { border-left: 1px solid #bbb; }
+            .print-summary span.lbl { display: block; font-size: 9.5px; text-transform: uppercase; font-weight: 800; color: #555; letter-spacing: 0.8px; }
+            .print-summary span.val { display: block; font-size: 21px; font-weight: 800; color: #111; margin-top: 3px; font-family: 'Cinzel', serif; }
+
+            .print-signatures { display: flex; justify-content: flex-end; align-items: flex-end; padding: 0 4px; margin-bottom: 10px; }
+            .print-sig-block { text-align: center; width: 160px; }
+            .print-sig-block img { width: 110px; height: auto; margin-bottom: -4px; mix-blend-mode: multiply; display: block; margin-left: auto; margin-right: auto; }
+            .print-sig-line { border-top: 1.5px solid #111; padding-top: 4px; font-weight: 700; font-size: 12px; color: #111; }
+            .print-sig-name { font-size: 11px; font-weight: 600; color: #444; margin-top: 2px; line-height: 1.5; }
+
+            .print-footer-note { text-align: center; font-size: 9px; color: #aaa; letter-spacing: 0.3px; font-style: italic; border-top: 1px solid #ddd; padding-top: 6px; margin: 0; }
         }
     </style>
 </head>
@@ -290,23 +305,6 @@
             window.print();
         }
 
-        function fitResultToViewport() {
-            if (!document.body.classList.contains('result-mode')) return;
-            const wrapper = document.getElementById('masterReportContainer');
-            const screenReport = wrapper.querySelector('.screen-report');
-            if (!wrapper || !screenReport) return;
-
-            screenReport.style.transform = 'none';
-            const availableHeight = Math.max(0, wrapper.clientHeight - 4);
-            const availableWidth = Math.max(0, wrapper.clientWidth - 4);
-            const naturalHeight = screenReport.offsetHeight;
-            const naturalWidth = screenReport.offsetWidth;
-
-            const scale = Math.min(1, availableHeight / naturalHeight, availableWidth / naturalWidth);
-            screenReport.style.transform = `scale(${scale})`;
-            screenReport.style.transformOrigin = 'top center';
-        }
-
         function getAnotherResult() {
             document.body.classList.remove('result-mode');
             const masterContainer = document.getElementById('masterReportContainer');
@@ -321,7 +319,6 @@
         }
 
         window.addEventListener('afterprint', () => { document.title = DEFAULT_PAGE_TITLE; });
-        window.addEventListener('resize', fitResultToViewport);
 
         function generateReport() {
             const className = document.getElementById('classSelect').value;
@@ -354,7 +351,7 @@
             const statusUpper = String(s.status || '').toUpperCase();
             const statusClass = statusUpper === 'PASS' ? 'status-pass' : statusUpper === 'FAIL' ? 'status-fail' : 'status-absent';
 
-            // 1. GENERATE SCREEN HTML (Original Dashboard)
+            // 1. GENERATE SCREEN HTML (Dynamic Flexbox layout)
             const screenHTML = `
                 <div class="screen-report">
                     <h3 class="result-title">Result Summary</h3>
@@ -388,48 +385,62 @@
             // 2. GENERATE PRINT HTML (Formal Document)
             const printHTML = `
                 <div class="print-report">
-                    <img src="logo.png" class="print-watermark" alt="">
-                    
-                    <div class="print-header">
-                        <img src="logo.png" alt="Logo">
-                        <h1>PHULANI HIGH SCHOOL</h1>
-                        <p>MAJULI, ASSAM - ESTD: 1972</p>
-                        <div class="session">ANNUAL PROGRESS REPORT : 2025 - 2026</div>
-                    </div>
+                    <div class="print-inner">
+                        <div class="print-top">
+                            <div class="print-header">
+                                <img src="logo.png" class="logo" alt="School Logo" onerror="this.style.display='none'">
+                                <h1>Phulani High School</h1>
+                                <p class="school-meta">Estd. 1972 &nbsp;|&nbsp; UDISE Code: 18310409706</p>
+                                <p class="school-address">Karki Chuk, Lahon Gaon, Majuli, Assam. PIN: 785105</p>
+                                <hr class="rule">
+                                <div class="session-badge">
+                                    ANNUAL EXAMINATION<br>Session : 2025 - 2026
+                                </div>
+                                <hr class="rule" style="margin-bottom:12px;">
+                            </div>
 
-                    <div class="print-student-info">
-                        <div class="print-info-row"><strong>Student Name:</strong> ${s.name}</div>
-                        <div class="print-info-row"><strong>Roll Number:</strong> ${roll}</div>
-                        <div class="print-info-row"><strong>Class:</strong> ${classLabel}</div>
-                        <div class="print-info-row"><strong>Final Status:</strong> ${s.status}</div>
-                    </div>
+                            <div class="print-student-info">
+                                <div class="print-info-row"><strong>Student Name:</strong> ${s.name}</div>
+                                <div class="print-info-row"><strong>Roll Number:</strong> ${roll}</div>
+                                <div class="print-info-row"><strong>Class:</strong> ${classLabel}</div>
+                                <div class="print-info-row"><strong>Final Status:</strong> ${s.status}</div>
+                            </div>
 
-                    <table>
-                        <thead><tr><th class="subject-name">Scholastic Areas</th><th>Max Marks</th><th>Marks Obtained</th></tr></thead>
-                        <tbody>
-                            <tr><td class="subject-name">Assamese</td><td>${MAX_PER_SUBJECT}</td><td>${s.assamese}</td></tr>
-                            <tr><td class="subject-name">English</td><td>${MAX_PER_SUBJECT}</td><td>${s.english}</td></tr>
-                            <tr><td class="subject-name">General Science</td><td>${MAX_PER_SUBJECT}</td><td>${s.science}</td></tr>
-                            <tr><td class="subject-name">General Mathematics</td><td>${MAX_PER_SUBJECT}</td><td>${s.maths}</td></tr>
-                            <tr><td class="subject-name">Social Science</td><td>${MAX_PER_SUBJECT}</td><td>${s.social}</td></tr>
-                            <tr><td class="subject-name">Hindi</td><td>${MAX_PER_SUBJECT}</td><td>${s.hindi}</td></tr>
-                        </tbody>
-                    </table>
+                            <table class="marks-table">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align:left; width:55%;">Scholastic Areas</th>
+                                        <th style="width:22%;">Max. Marks</th>
+                                        <th style="width:23%;">Marks Obtained</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="subject-name">Assamese</td><td>${MAX_PER_SUBJECT}</td><td>${s.assamese}</td></tr>
+                                    <tr><td class="subject-name">English</td><td>${MAX_PER_SUBJECT}</td><td>${s.english}</td></tr>
+                                    <tr><td class="subject-name">General Science</td><td>${MAX_PER_SUBJECT}</td><td>${s.science}</td></tr>
+                                    <tr><td class="subject-name">General Mathematics</td><td>${MAX_PER_SUBJECT}</td><td>${s.maths}</td></tr>
+                                    <tr><td class="subject-name">Social Science</td><td>${MAX_PER_SUBJECT}</td><td>${s.social}</td></tr>
+                                    <tr><td class="subject-name">Hindi</td><td>${MAX_PER_SUBJECT}</td><td>${s.hindi}</td></tr>
+                                </tbody>
+                            </table>
 
-                    <div class="print-summary">
-                        <div><span class="lbl">Grand Total</span><span class="val">${s.total} / ${TOTAL_POSSIBLE}</span></div>
-                        <div><span class="lbl">Percentage</span><span class="val">${s.percentage}%</span></div>
-                        <div><span class="lbl">Class Rank</span><span class="val">${s.rank}</span></div>
-                    </div>
-
-                    <div class="print-signatures">
-                        <div class="print-sig-block">
-                            <div style="height: 60px;"></div>
-                            <div class="print-sig-line" style="border-top: 1px dashed #000;">Class Teacher</div>
+                            <div class="print-summary">
+                                <div><span class="lbl">Grand Total</span><span class="val">${s.total} / ${TOTAL_POSSIBLE}</span></div>
+                                <div><span class="lbl">Percentage</span><span class="val">${s.percentage}%</span></div>
+                                <div><span class="lbl">Class Rank</span><span class="val">${s.rank}</span></div>
+                            </div>
                         </div>
-                        <div class="print-sig-block">
-                            <img src="sign.jpg" alt="HM Signature">
-                            <div class="print-sig-line">Head Master</div>
+
+                        <div>
+                            <div class="print-signatures">
+                                <div class="print-sig-block">
+                                    <img src="sign.jpg" alt="HM Signature" onerror="this.style.display='none'">
+                                    <div class="print-sig-line">Atul Ch. Nath</div>
+                                    <div class="print-sig-name">Headmaster,</div>
+                                    <div class="print-sig-name">Phulani High School</div>
+                                </div>
+                            </div>
+                            <p class="print-footer-note">This is a computer-generated report card. No separate attestation required.</p>
                         </div>
                     </div>
                 </div>
@@ -440,9 +451,6 @@
             masterContainer.style.display = 'flex';
             document.getElementById('resultActions').style.display = 'flex';
             document.body.classList.add('result-mode');
-            
-            // Allow DOM to update before scaling the screen version
-            setTimeout(fitResultToViewport, 50);
         }
     </script>
 </body>
