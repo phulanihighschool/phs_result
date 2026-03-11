@@ -182,20 +182,46 @@
         @media print {
             @page { size: A4; margin: 0; }
             
-            body { background: #fff; margin: 0; padding: 0; }
+            /* Explicitly reset layout locks that spill from screen view */
+            body, body.result-mode { 
+                background: #fff !important; 
+                margin: 0 !important; 
+                padding: 0 !important; 
+                height: auto !important; 
+                overflow: visible !important; 
+                display: block !important; 
+            }
+            
+            .layout, body.result-mode .layout { 
+                margin: 0 !important; 
+                padding: 0 !important; 
+                width: 100% !important; 
+                max-width: none !important; 
+                height: auto !important; 
+                display: block !important; 
+            }
             
             /* Hide ALL screen elements */
             .masthead, .search-panel, .result-actions, .screen-report { display: none !important; }
             
-            /* Show and format print elements */
-            .report-wrapper { display: block !important; overflow: visible !important; height: auto !important; padding: 0; margin: 0; }
+            /* Center the print wrapper on the page */
+            .report-wrapper, body.result-mode .report-wrapper { 
+                display: flex !important; 
+                justify-content: center !important; 
+                align-items: flex-start !important; 
+                overflow: visible !important; 
+                height: auto !important; 
+                padding: 0 !important; 
+                margin: 0 !important; 
+                width: 100% !important; 
+            }
             
             .print-report {
                 display: flex;
                 position: relative;
                 width: calc(210mm - 16mm);
                 min-height: calc(297mm - 16mm);
-                margin: 8mm;
+                margin: 8mm auto; /* The auto pushes it to the absolute horizontal center */
                 border: 3px solid #000;
                 box-shadow: inset 0 0 0 2px #000;
                 background: #fff;
@@ -203,6 +229,7 @@
                 print-color-adjust: exact;
                 flex-direction: column;
                 box-sizing: border-box;
+                page-break-after: always;
             }
 
             .print-inner {
