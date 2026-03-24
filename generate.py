@@ -4,12 +4,12 @@ import os
 
 # Ensure these match your exact CSV filenames
 files = {
-    "Class6": "Class 6.csv",
-    "Class7": "Class 7.csv",
-    "Class8A": "Class 8(A).csv",
-    "Class8B": "Class 8(B).csv",
-    "Class9A": "Class 9(A).csv",
-    "Class9B": "Class 9(B).csv"
+    "Class6": "result_portal_Class_6.csv",
+    "Class7": "result_portal_Class_7.csv",
+    "Class8A": "result_portal_Class_8(A).csv",
+    "Class8B": "result_portal_Class_8(B).csv",
+    "Class9A": "result_portal_Class_9(A).csv",
+    "Class9B": "result_portal_Class_9(B).csv"
 }
 
 school_data = {}
@@ -39,16 +39,25 @@ for class_name, filename in files.items():
     # Detect format: multi-exam if any data column contains " - "
     is_multi_exam = any(" - " in col for col in data_cols)
 
-    # Compute rank for passing students only
+    # Compute rank for ALL students (Withheld = pct<15 get '-', handled by JS)
     df["Total"] = pd.to_numeric(df["Total"], errors="coerce").fillna(0)
-    pass_mask = df["Result"].str.upper() == "PASS"
-    df["Rank"] = "-"
-    df.loc[pass_mask, "Rank"] = (
-        df.loc[pass_mask, "Total"]
-        .rank(method="min", ascending=False)
-        .astype(int)
-        .astype(str)
-    )
+    df["_pct_num"] = pd.to_numeric(df["%"], errors="coerce").fillna(0)
+    withheld_mask = df["_pct_num"] < 15
+    rankable_mask = ~withheld_mask
+    df["Rank"] = "-"   # default: withheld or no data
+    if rankable_mask.any():
+        df.loc[rankable_mask, "Rank"] = (
+            df.loc[rankable_mask, "Total"]
+            .rank(method="min", ascending=False)
+            .astype(int)
+            .astype(str)
+        )
+
+    def get_dob(row):
+        dob = str(row["DOB"]) if "DOB" in df.columns else ""
+        if not dob or dob.strip().upper() in ("", "AB", "NAN"):
+            return "01/01/2026"
+        return dob
 
     if is_multi_exam:
         # Parse exam and subject names from column headers: "{exam} - {subject}"
@@ -74,7 +83,7 @@ for class_name, filename in files.items():
 
             school_data[class_name][roll_no] = {
                 "name": str(row["Name"]),
-                "dob": str(row["DOB"]) if "DOB" in df.columns else "",
+                "dob": get_dob(row),
                 "exams": exams_seen,
                 "subjects": subjects_seen,
                 "per_exam": per_exam,
@@ -94,7 +103,7 @@ for class_name, filename in files.items():
 
             school_data[class_name][roll_no] = {
                 "name": str(row["Name"]),
-                "dob": str(row["DOB"]) if "DOB" in df.columns else "",
+                "dob": get_dob(row),
                 "exams": [],
                 "subjects": subjects_seen,
                 "per_exam": {"": marks},
