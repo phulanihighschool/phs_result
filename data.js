@@ -2,7 +2,7 @@ const schoolData = {
     "Class6": {
         "1": {
             "name": "ANANTA JYOTI NATH",
-            "dob": "26/06/2012",
+            "dob": "26-06-2012",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -29,7 +29,7 @@ const schoolData = {
         },
         "2": {
             "name": "Ankurjyoti Nath",
-            "dob": "28/07/2014",
+            "dob": "28-07-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -56,7 +56,7 @@ const schoolData = {
         },
         "3": {
             "name": "AMTRA PAYENG",
-            "dob": "25/11/2013",
+            "dob": "25-11-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -83,7 +83,7 @@ const schoolData = {
         },
         "4": {
             "name": "Amol Chetry",
-            "dob": "23/12/2013",
+            "dob": "23-12-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -110,7 +110,7 @@ const schoolData = {
         },
         "5": {
             "name": "Anjal Chirang",
-            "dob": "12/06/2013",
+            "dob": "12-06-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -137,7 +137,7 @@ const schoolData = {
         },
         "6": {
             "name": "Anurag Nath",
-            "dob": "01/01/2014",
+            "dob": "01-01-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -191,7 +191,7 @@ const schoolData = {
         },
         "8": {
             "name": "Ansuman Hazarika",
-            "dob": "28/07/2015",
+            "dob": "28-07-2015",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -218,7 +218,7 @@ const schoolData = {
         },
         "9": {
             "name": "Bidyashree Saikia",
-            "dob": "26/09/2013",
+            "dob": "26-09-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -245,7 +245,7 @@ const schoolData = {
         },
         "10": {
             "name": "Barsha Nath",
-            "dob": "06/02/2014",
+            "dob": "06-02-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -272,7 +272,7 @@ const schoolData = {
         },
         "11": {
             "name": "Biman Mili",
-            "dob": "12/03/2013",
+            "dob": "12-03-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -299,7 +299,7 @@ const schoolData = {
         },
         "12": {
             "name": "Biman Pame",
-            "dob": "24/06/2011",
+            "dob": "24-06-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -326,7 +326,7 @@ const schoolData = {
         },
         "13": {
             "name": "Bhonimai Mili",
-            "dob": "06/10/2014",
+            "dob": "06-10-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -353,7 +353,7 @@ const schoolData = {
         },
         "14": {
             "name": "Budhin Taye",
-            "dob": "29/08/2013",
+            "dob": "29-08-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -380,7 +380,7 @@ const schoolData = {
         },
         "15": {
             "name": "Debobrat Saikia",
-            "dob": "07/03/2014",
+            "dob": "07-03-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -407,7 +407,7 @@ const schoolData = {
         },
         "16": {
             "name": "Dipankare Mili",
-            "dob": "09/08/2013",
+            "dob": "09-08-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -434,7 +434,7 @@ const schoolData = {
         },
         "17": {
             "name": "Deba Chetry",
-            "dob": "27/02/2014",
+            "dob": "27-02-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -461,7 +461,7 @@ const schoolData = {
         },
         "18": {
             "name": "Deborgana Saikia",
-            "dob": "01/01/2014",
+            "dob": "01-01-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -488,7 +488,7 @@ const schoolData = {
         },
         "19": {
             "name": "Dipiroti Mili",
-            "dob": "08/02/2016",
+            "dob": "08-02-2016",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -515,7 +515,7 @@ const schoolData = {
         },
         "20": {
             "name": "Gumajit Das",
-            "dob": "29/06/2014",
+            "dob": "29-06-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -542,7 +542,7 @@ const schoolData = {
         },
         "21": {
             "name": "Gautam Mili",
-            "dob": "20/08/2014",
+            "dob": "20-08-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -569,7 +569,7 @@ const schoolData = {
         },
         "22": {
             "name": "Gautam Baruah",
-            "dob": "01/02/2014",
+            "dob": "01-02-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -596,7 +596,7 @@ const schoolData = {
         },
         "23": {
             "name": "Gyommoni Mili",
-            "dob": "20/07/2014",
+            "dob": "20-07-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -623,7 +623,7 @@ const schoolData = {
         },
         "24": {
             "name": "Giridhar Pamegam",
-            "dob": "08/11/2013",
+            "dob": "08-11-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -677,7 +677,7 @@ const schoolData = {
         },
         "26": {
             "name": "Jontora Payeng",
-            "dob": "10/01/2014",
+            "dob": "10-01-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -704,7 +704,7 @@ const schoolData = {
         },
         "27": {
             "name": "Jublee Saikia",
-            "dob": "25/01/2014",
+            "dob": "25-01-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -731,7 +731,7 @@ const schoolData = {
         },
         "28": {
             "name": "JANARDON SAIKIA",
-            "dob": "22/03/2014",
+            "dob": "22-03-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -758,7 +758,7 @@ const schoolData = {
         },
         "29": {
             "name": "Jintu Baruah",
-            "dob": "01/02/2013",
+            "dob": "01-02-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -785,7 +785,7 @@ const schoolData = {
         },
         "30": {
             "name": "Janmoni Narah",
-            "dob": "27/09/2010",
+            "dob": "27-09-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -839,7 +839,7 @@ const schoolData = {
         },
         "32": {
             "name": "Jayashree Grayen",
-            "dob": "02/01/2014",
+            "dob": "02-01-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -866,7 +866,7 @@ const schoolData = {
         },
         "33": {
             "name": "Juri Saikia",
-            "dob": "25/08/2013",
+            "dob": "25-08-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -893,7 +893,7 @@ const schoolData = {
         },
         "34": {
             "name": "Jitumoni Payeng",
-            "dob": "06/02/2015",
+            "dob": "06-02-2015",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -920,7 +920,7 @@ const schoolData = {
         },
         "35": {
             "name": "Krishna Mili",
-            "dob": "24/02/2013",
+            "dob": "24-02-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -947,7 +947,7 @@ const schoolData = {
         },
         "36": {
             "name": "Krishna Bareah",
-            "dob": "24/07/2014",
+            "dob": "24-07-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -974,7 +974,7 @@ const schoolData = {
         },
         "37": {
             "name": "Lakhimi Sharmah",
-            "dob": "08/10/2014",
+            "dob": "08-10-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1000,8 +1000,8 @@ const schoolData = {
             "status": "PASS"
         },
         "38": {
-            "name": "Mayare Bez",
-            "dob": "03/07/2014",
+            "name": "Mayur Bez",
+            "dob": "03-07-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1028,7 +1028,7 @@ const schoolData = {
         },
         "39": {
             "name": "Mayuri Payeng",
-            "dob": "07/11/2014",
+            "dob": "07-11-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1055,7 +1055,7 @@ const schoolData = {
         },
         "40": {
             "name": "Madhuriya Saikia",
-            "dob": "01/02/2014",
+            "dob": "01-02-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1082,7 +1082,7 @@ const schoolData = {
         },
         "41": {
             "name": "Maini Nath",
-            "dob": "15/09/2014",
+            "dob": "15-09-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1109,7 +1109,7 @@ const schoolData = {
         },
         "42": {
             "name": "Mrinal Chirang",
-            "dob": "12/09/2012",
+            "dob": "12-09-2012",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1136,7 +1136,7 @@ const schoolData = {
         },
         "43": {
             "name": "Mejong Narah",
-            "dob": "31/07/2013",
+            "dob": "31-07-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1163,7 +1163,7 @@ const schoolData = {
         },
         "44": {
             "name": "MAYUR NARAH",
-            "dob": "22/08/2014",
+            "dob": "22-08-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1190,7 +1190,7 @@ const schoolData = {
         },
         "45": {
             "name": "MUNNA NARAH",
-            "dob": "25/08/2014",
+            "dob": "25-08-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1217,7 +1217,7 @@ const schoolData = {
         },
         "46": {
             "name": "Nayanjyoti Saikia",
-            "dob": "08/08/2012",
+            "dob": "08-08-2012",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1244,7 +1244,7 @@ const schoolData = {
         },
         "47": {
             "name": "Nripendra Nath",
-            "dob": "26/06/2012",
+            "dob": "26-06-2012",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1271,7 +1271,7 @@ const schoolData = {
         },
         "48": {
             "name": "Nabanita Narah",
-            "dob": "13/02/2015",
+            "dob": "13-02-2015",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1325,7 +1325,7 @@ const schoolData = {
         },
         "50": {
             "name": "Priyanka Das",
-            "dob": "29/12/2013",
+            "dob": "29-12-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1352,7 +1352,7 @@ const schoolData = {
         },
         "51": {
             "name": "Pranab Dutta",
-            "dob": "17/02/2014",
+            "dob": "17-02-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1379,7 +1379,7 @@ const schoolData = {
         },
         "52": {
             "name": "Rakesh Boreah",
-            "dob": "30/08/2014",
+            "dob": "30-08-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1406,7 +1406,7 @@ const schoolData = {
         },
         "53": {
             "name": "Rajnandan Saikia",
-            "dob": "22/10/2013",
+            "dob": "22-10-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1433,7 +1433,7 @@ const schoolData = {
         },
         "54": {
             "name": "Rashmi Mili",
-            "dob": "14/06/2013",
+            "dob": "14-06-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1460,7 +1460,7 @@ const schoolData = {
         },
         "55": {
             "name": "Risha Payeng",
-            "dob": "15/05/2013",
+            "dob": "15-05-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1487,7 +1487,7 @@ const schoolData = {
         },
         "56": {
             "name": "Runumoni Payeng",
-            "dob": "31/03/2013",
+            "dob": "31-03-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1514,7 +1514,7 @@ const schoolData = {
         },
         "57": {
             "name": "Raju Saikia",
-            "dob": "24/10/2014",
+            "dob": "24-10-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1541,7 +1541,7 @@ const schoolData = {
         },
         "58": {
             "name": "Rupam Narah",
-            "dob": "03/06/2014",
+            "dob": "03-06-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1568,7 +1568,7 @@ const schoolData = {
         },
         "59": {
             "name": "Rimpi Mili",
-            "dob": "26/09/2013",
+            "dob": "26-09-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1595,7 +1595,7 @@ const schoolData = {
         },
         "60": {
             "name": "Ram Mili",
-            "dob": "20/09/2014",
+            "dob": "20-09-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1622,7 +1622,7 @@ const schoolData = {
         },
         "61": {
             "name": "Rimjhim Dutta",
-            "dob": "19/06/2014",
+            "dob": "19-06-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1676,7 +1676,7 @@ const schoolData = {
         },
         "63": {
             "name": "Suriya Kumar Narah",
-            "dob": "03/11/2014",
+            "dob": "03-11-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1703,7 +1703,7 @@ const schoolData = {
         },
         "64": {
             "name": "Surej Saikia",
-            "dob": "05/05/2013",
+            "dob": "05-05-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1730,7 +1730,7 @@ const schoolData = {
         },
         "65": {
             "name": "Silbahadur Newar",
-            "dob": "31/10/2014",
+            "dob": "31-10-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1784,7 +1784,7 @@ const schoolData = {
         },
         "67": {
             "name": "Sourav Bez",
-            "dob": "14/12/2013",
+            "dob": "14-12-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1811,7 +1811,7 @@ const schoolData = {
         },
         "68": {
             "name": "Sangeeta Dutta",
-            "dob": "03/01/2014",
+            "dob": "03-01-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1865,7 +1865,7 @@ const schoolData = {
         },
         "70": {
             "name": "Simanjyoti Patir",
-            "dob": "05/05/2013",
+            "dob": "05-05-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1892,7 +1892,7 @@ const schoolData = {
         },
         "71": {
             "name": "Tutumoni Payeng",
-            "dob": "30/01/2014",
+            "dob": "30-01-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1919,7 +1919,7 @@ const schoolData = {
         },
         "72": {
             "name": "Utpal Mili",
-            "dob": "20/08/2014",
+            "dob": "20-08-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1946,7 +1946,7 @@ const schoolData = {
         },
         "73": {
             "name": "Udita Borah",
-            "dob": "18/11/2013",
+            "dob": "18-11-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -1973,7 +1973,7 @@ const schoolData = {
         },
         "74": {
             "name": "Gautam Mili",
-            "dob": "20/08/2014",
+            "dob": "20-08-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -2000,7 +2000,7 @@ const schoolData = {
         },
         "75": {
             "name": "Parthapratim Baruah",
-            "dob": "16/01/2013",
+            "dob": "16-01-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -2027,7 +2027,7 @@ const schoolData = {
         },
         "76": {
             "name": "Malobika Doley",
-            "dob": "23/03/2014",
+            "dob": "23-03-2014",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -2054,7 +2054,7 @@ const schoolData = {
         },
         "77": {
             "name": "Preandeep Hazarika",
-            "dob": "10/08/2013",
+            "dob": "10-08-2013",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -5923,7 +5923,7 @@ const schoolData = {
     "Class9A": {
         "1": {
             "name": "AKASH SAIKIA",
-            "dob": "20/01/2010",
+            "dob": "20-01-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -5943,7 +5943,7 @@ const schoolData = {
                     "General Science": "39",
                     "General Mathematics": "25.0",
                     "Social Science": "37.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "AB",
                     "Elective: Agriculture & Horticulture NSQF": "53.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -5956,7 +5956,7 @@ const schoolData = {
         },
         "2": {
             "name": "ANJALI SAIKIA",
-            "dob": "21/01/2011",
+            "dob": "21-01-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -5976,7 +5976,7 @@ const schoolData = {
                     "General Science": "60",
                     "General Mathematics": "23.0",
                     "Social Science": "69.0",
-                    "Elective: Hindi": "69",
+                    "Elective: Hindi": "69.0",
                     "Elective: History": "AB",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -5989,7 +5989,7 @@ const schoolData = {
         },
         "3": {
             "name": "ANKUR NATH",
-            "dob": "03/10/2010",
+            "dob": "03-10-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6009,7 +6009,7 @@ const schoolData = {
                     "General Science": "52",
                     "General Mathematics": "26.0",
                     "Social Science": "46.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "64.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -6022,7 +6022,7 @@ const schoolData = {
         },
         "4": {
             "name": "AKASHDEEP CHETRY",
-            "dob": "31/05/2011",
+            "dob": "31-05-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6042,7 +6042,7 @@ const schoolData = {
                     "General Science": "21",
                     "General Mathematics": "23.0",
                     "Social Science": "23.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "1.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6055,7 +6055,7 @@ const schoolData = {
         },
         "5": {
             "name": "ANAMIKA CHINTEY",
-            "dob": "01/10/2010",
+            "dob": "01-10-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6075,7 +6075,7 @@ const schoolData = {
                     "General Science": "37",
                     "General Mathematics": "30.0",
                     "Social Science": "35.0",
-                    "Elective: Hindi": "43",
+                    "Elective: Hindi": "43.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6088,7 +6088,7 @@ const schoolData = {
         },
         "6": {
             "name": "ANITA CHETRY",
-            "dob": "29/11/2011",
+            "dob": "29-11-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6108,7 +6108,7 @@ const schoolData = {
                     "General Science": "33",
                     "General Mathematics": "22.0",
                     "Social Science": "23.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "47.0"
@@ -6121,7 +6121,7 @@ const schoolData = {
         },
         "7": {
             "name": "ANKITA DUTTA",
-            "dob": "26/07/2010",
+            "dob": "26-07-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6141,7 +6141,7 @@ const schoolData = {
                     "General Science": "40",
                     "General Mathematics": "31.0",
                     "Social Science": "29.0",
-                    "Elective: Hindi": "33",
+                    "Elective: Hindi": "33.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6154,7 +6154,7 @@ const schoolData = {
         },
         "8": {
             "name": "ANSUMAN NATH",
-            "dob": "28/12/2010",
+            "dob": "28-12-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6174,7 +6174,7 @@ const schoolData = {
                     "General Science": "50",
                     "General Mathematics": "21.0",
                     "Social Science": "41.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "81.0"
@@ -6187,7 +6187,7 @@ const schoolData = {
         },
         "9": {
             "name": "APUN GAM",
-            "dob": "01/02/2010",
+            "dob": "01-02-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6207,7 +6207,7 @@ const schoolData = {
                     "General Science": "37",
                     "General Mathematics": "18.0",
                     "Social Science": "26.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "68.0"
@@ -6220,7 +6220,7 @@ const schoolData = {
         },
         "10": {
             "name": "APUN MILI",
-            "dob": "02/01/2011",
+            "dob": "02-01-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6240,7 +6240,7 @@ const schoolData = {
                     "General Science": "27",
                     "General Mathematics": "18.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "1.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6253,7 +6253,7 @@ const schoolData = {
         },
         "11": {
             "name": "AYAN PRAKASH SAIKIA",
-            "dob": "10/09/2009",
+            "dob": "10-09-2009",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6273,7 +6273,7 @@ const schoolData = {
                     "General Science": "19",
                     "General Mathematics": "19.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "1.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6306,7 +6306,7 @@ const schoolData = {
                     "General Science": "0",
                     "General Mathematics": "AB",
                     "Social Science": "AB",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6319,7 +6319,7 @@ const schoolData = {
         },
         "13": {
             "name": "BISHWAJIT PAYUN",
-            "dob": "12/12/2011",
+            "dob": "12-12-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6339,7 +6339,7 @@ const schoolData = {
                     "General Science": "24",
                     "General Mathematics": "20.0",
                     "Social Science": "19.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "3.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6352,7 +6352,7 @@ const schoolData = {
         },
         "14": {
             "name": "BABITA NARAH",
-            "dob": "19/11/2009",
+            "dob": "19-11-2009",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6372,7 +6372,7 @@ const schoolData = {
                     "General Science": "24",
                     "General Mathematics": "19.0",
                     "Social Science": "22.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "1.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6385,7 +6385,7 @@ const schoolData = {
         },
         "15": {
             "name": "BABYMONI NARAH",
-            "dob": "09/12/2011",
+            "dob": "09-12-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6405,7 +6405,7 @@ const schoolData = {
                     "General Science": "25",
                     "General Mathematics": "23.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "19",
+                    "Elective: Hindi": "19.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6418,7 +6418,7 @@ const schoolData = {
         },
         "16": {
             "name": "BASANTA DOLEY",
-            "dob": "02/04/2012",
+            "dob": "02-04-2012",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6438,7 +6438,7 @@ const schoolData = {
                     "General Science": "12",
                     "General Mathematics": "18.0",
                     "Social Science": "19.0",
-                    "Elective: Hindi": "10",
+                    "Elective: Hindi": "10.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6451,7 +6451,7 @@ const schoolData = {
         },
         "17": {
             "name": "BHAGYASHREE SAIKIA",
-            "dob": "15/07/2010",
+            "dob": "15-07-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6471,7 +6471,7 @@ const schoolData = {
                     "General Science": "38",
                     "General Mathematics": "36.0",
                     "Social Science": "43.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "57.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -6484,7 +6484,7 @@ const schoolData = {
         },
         "18": {
             "name": "BIJIT PAYENG",
-            "dob": "12/12/2011",
+            "dob": "12-12-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6504,7 +6504,7 @@ const schoolData = {
                     "General Science": "31",
                     "General Mathematics": "18.0",
                     "Social Science": "26.0",
-                    "Elective: Hindi": "10",
+                    "Elective: Hindi": "10.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6517,7 +6517,7 @@ const schoolData = {
         },
         "19": {
             "name": "BIMAL MILI",
-            "dob": "01/02/2011",
+            "dob": "01-02-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6537,7 +6537,7 @@ const schoolData = {
                     "General Science": "27",
                     "General Mathematics": "24.0",
                     "Social Science": "23.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "2.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6550,7 +6550,7 @@ const schoolData = {
         },
         "20": {
             "name": "BINA CHIRANG",
-            "dob": "10/02/2010",
+            "dob": "10-02-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6570,7 +6570,7 @@ const schoolData = {
                     "General Science": "34",
                     "General Mathematics": "17.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "1",
+                    "Elective: Hindi": "1.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6583,7 +6583,7 @@ const schoolData = {
         },
         "21": {
             "name": "BISHAL PANGING",
-            "dob": "12/08/2011",
+            "dob": "12-08-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6603,7 +6603,7 @@ const schoolData = {
                     "General Science": "50",
                     "General Mathematics": "47.0",
                     "Social Science": "52.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "59.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6616,7 +6616,7 @@ const schoolData = {
         },
         "22": {
             "name": "BISWAJIT MILI",
-            "dob": "10/08/2011",
+            "dob": "10-08-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6636,7 +6636,7 @@ const schoolData = {
                     "General Science": "0",
                     "General Mathematics": "AB",
                     "Social Science": "AB",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6649,7 +6649,7 @@ const schoolData = {
         },
         "23": {
             "name": "CHAYANIKA HAZARIKA",
-            "dob": "04/09/2012",
+            "dob": "04-09-2012",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6669,7 +6669,7 @@ const schoolData = {
                     "General Science": "46",
                     "General Mathematics": "13.0",
                     "Social Science": "50.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "51.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -6682,7 +6682,7 @@ const schoolData = {
         },
         "24": {
             "name": "DEVI PRIYA SAIKIA",
-            "dob": "06/06/2011",
+            "dob": "06-06-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6702,20 +6702,20 @@ const schoolData = {
                     "General Science": "68",
                     "General Mathematics": "53.0",
                     "Social Science": "74.0",
-                    "Elective: Hindi": "0",
-                    "Elective: History": "0.0",
+                    "Elective: Hindi": "AB",
+                    "Elective: History": "78.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
                 }
             },
-            "total": "367",
-            "percentage": "61.17",
+            "total": "445",
+            "percentage": "74.17",
             "rank": "1",
             "status": "PASS"
         },
         "25": {
             "name": "DIMBESWAR PANGING",
-            "dob": "07/04/2011",
+            "dob": "07-04-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6735,7 +6735,7 @@ const schoolData = {
                     "General Science": "0",
                     "General Mathematics": "AB",
                     "Social Science": "AB",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6748,7 +6748,7 @@ const schoolData = {
         },
         "26": {
             "name": "DIPANJALI MILI",
-            "dob": "15/05/2011",
+            "dob": "15-05-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6768,7 +6768,7 @@ const schoolData = {
                     "General Science": "55",
                     "General Mathematics": "43.0",
                     "Social Science": "66.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "52.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6781,7 +6781,7 @@ const schoolData = {
         },
         "27": {
             "name": "DEEKSHITA DUTTA",
-            "dob": "17/11/2011",
+            "dob": "17-11-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6801,7 +6801,7 @@ const schoolData = {
                     "General Science": "50",
                     "General Mathematics": "34.0",
                     "Social Science": "58.0",
-                    "Elective: Hindi": "47",
+                    "Elective: Hindi": "47.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6814,7 +6814,7 @@ const schoolData = {
         },
         "28": {
             "name": "DIBYAJYOTI CHINTEY",
-            "dob": "07/11/2011",
+            "dob": "07-11-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6834,7 +6834,7 @@ const schoolData = {
                     "General Science": "39",
                     "General Mathematics": "35.0",
                     "Social Science": "28.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "6.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6847,7 +6847,7 @@ const schoolData = {
         },
         "29": {
             "name": "DIPAK TAID",
-            "dob": "26/06/2009",
+            "dob": "26-06-2009",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6867,7 +6867,7 @@ const schoolData = {
                     "General Science": "34",
                     "General Mathematics": "25.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "66.0"
@@ -6880,7 +6880,7 @@ const schoolData = {
         },
         "30": {
             "name": "DIPIKA PAYENG",
-            "dob": "23/02/2011",
+            "dob": "23-02-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6900,7 +6900,7 @@ const schoolData = {
                     "General Science": "51",
                     "General Mathematics": "43.0",
                     "Social Science": "40.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "32.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -6913,7 +6913,7 @@ const schoolData = {
         },
         "31": {
             "name": "DIPJYOTI PATIR",
-            "dob": "05/09/2009",
+            "dob": "05-09-2009",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6933,7 +6933,7 @@ const schoolData = {
                     "General Science": "20",
                     "General Mathematics": "33.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "59.0"
@@ -6946,7 +6946,7 @@ const schoolData = {
         },
         "32": {
             "name": "GAUTAM HAZARIKA",
-            "dob": "08/01/2011",
+            "dob": "08-01-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6966,7 +6966,7 @@ const schoolData = {
                     "General Science": "23",
                     "General Mathematics": "23.0",
                     "Social Science": "31.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "50.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -6979,7 +6979,7 @@ const schoolData = {
         },
         "33": {
             "name": "GYAN PAYENG",
-            "dob": "02/10/2011",
+            "dob": "02-10-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -6999,7 +6999,7 @@ const schoolData = {
                     "General Science": "27",
                     "General Mathematics": "21.0",
                     "Social Science": "16.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "1.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7012,7 +7012,7 @@ const schoolData = {
         },
         "34": {
             "name": "HEMANTA NARAH",
-            "dob": "07/11/2010",
+            "dob": "07-11-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7032,7 +7032,7 @@ const schoolData = {
                     "General Science": "29",
                     "General Mathematics": "27.0",
                     "Social Science": "33.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "58.0"
@@ -7045,7 +7045,7 @@ const schoolData = {
         },
         "35": {
             "name": "JIBAN PAYING",
-            "dob": "01/12/2010",
+            "dob": "01-12-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7065,7 +7065,7 @@ const schoolData = {
                     "General Science": "25",
                     "General Mathematics": "30.0",
                     "Social Science": "28.0",
-                    "Elective: Hindi": "35",
+                    "Elective: Hindi": "35.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7078,7 +7078,7 @@ const schoolData = {
         },
         "36": {
             "name": "JINTU SAIKIA",
-            "dob": "07/01/2011",
+            "dob": "07-01-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7098,7 +7098,7 @@ const schoolData = {
                     "General Science": "43",
                     "General Mathematics": "37.0",
                     "Social Science": "45.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "52.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -7111,7 +7111,7 @@ const schoolData = {
         },
         "37": {
             "name": "JITU MILI",
-            "dob": "10/08/2011",
+            "dob": "10-08-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7131,7 +7131,7 @@ const schoolData = {
                     "General Science": "49",
                     "General Mathematics": "46.0",
                     "Social Science": "41.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "74.0"
@@ -7144,7 +7144,7 @@ const schoolData = {
         },
         "38": {
             "name": "JITUL MILI",
-            "dob": "19/07/2009",
+            "dob": "19-07-2009",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7164,7 +7164,7 @@ const schoolData = {
                     "General Science": "19",
                     "General Mathematics": "45.0",
                     "Social Science": "38.0",
-                    "Elective: Hindi": "11",
+                    "Elective: Hindi": "11.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7177,7 +7177,7 @@ const schoolData = {
         },
         "39": {
             "name": "JITUMONI PAYENG",
-            "dob": "01/02/2010",
+            "dob": "01-02-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7197,7 +7197,7 @@ const schoolData = {
                     "General Science": "39",
                     "General Mathematics": "42.0",
                     "Social Science": "44.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "49.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -7210,7 +7210,7 @@ const schoolData = {
         },
         "40": {
             "name": "JUNMONI PAYENG",
-            "dob": "01/01/2010",
+            "dob": "01-01-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7230,7 +7230,7 @@ const schoolData = {
                     "General Science": "26",
                     "General Mathematics": "18.0",
                     "Social Science": "28.0",
-                    "Elective: Hindi": "12",
+                    "Elective: Hindi": "12.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7243,7 +7243,7 @@ const schoolData = {
         },
         "41": {
             "name": "JYOTIMAI MILI",
-            "dob": "20/03/2011",
+            "dob": "20-03-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7263,7 +7263,7 @@ const schoolData = {
                     "General Science": "24",
                     "General Mathematics": "16.0",
                     "Social Science": "16.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "33.0"
@@ -7276,7 +7276,7 @@ const schoolData = {
         },
         "42": {
             "name": "KRISHNA PAME",
-            "dob": "25/07/2012",
+            "dob": "25-07-2012",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7296,7 +7296,7 @@ const schoolData = {
                     "General Science": "20",
                     "General Mathematics": "45.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "4.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7309,7 +7309,7 @@ const schoolData = {
         },
         "43": {
             "name": "KRISHNAJYOTI NATH",
-            "dob": "15/12/2010",
+            "dob": "15-12-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7329,7 +7329,7 @@ const schoolData = {
                     "General Science": "39",
                     "General Mathematics": "43.0",
                     "Social Science": "37.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "48.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -7342,7 +7342,7 @@ const schoolData = {
         },
         "44": {
             "name": "KUMUD MILI",
-            "dob": "14/09/2010",
+            "dob": "14-09-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7362,7 +7362,7 @@ const schoolData = {
                     "General Science": "35",
                     "General Mathematics": "33.0",
                     "Social Science": "33.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "50.0"
@@ -7375,7 +7375,7 @@ const schoolData = {
         },
         "45": {
             "name": "LAKHIMOTI NARAH",
-            "dob": "08/04/2010",
+            "dob": "08-04-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7395,7 +7395,7 @@ const schoolData = {
                     "General Science": "22",
                     "General Mathematics": "21.0",
                     "Social Science": "16.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "5.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7408,7 +7408,7 @@ const schoolData = {
         },
         "46": {
             "name": "LATU SAIKIA",
-            "dob": "08/09/2011",
+            "dob": "08-09-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7428,7 +7428,7 @@ const schoolData = {
                     "General Science": "0",
                     "General Mathematics": "AB",
                     "Social Science": "AB",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7441,7 +7441,7 @@ const schoolData = {
         },
         "47": {
             "name": "MINTU MILI",
-            "dob": "01/11/2011",
+            "dob": "01-11-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7461,7 +7461,7 @@ const schoolData = {
                     "General Science": "18",
                     "General Mathematics": "21.0",
                     "Social Science": "27.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "3.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7474,7 +7474,7 @@ const schoolData = {
         },
         "48": {
             "name": "MONMOHANSINGH PEGU",
-            "dob": "14/05/2011",
+            "dob": "14-05-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7494,7 +7494,7 @@ const schoolData = {
                     "General Science": "19",
                     "General Mathematics": "26.0",
                     "Social Science": "29.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "5.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7507,7 +7507,7 @@ const schoolData = {
         },
         "49": {
             "name": "MONUJ DOLEY",
-            "dob": "05/07/2011",
+            "dob": "05-07-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7527,7 +7527,7 @@ const schoolData = {
                     "General Science": "17",
                     "General Mathematics": "32.0",
                     "Social Science": "24.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "6.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7540,7 +7540,7 @@ const schoolData = {
         },
         "50": {
             "name": "MUN NARAH",
-            "dob": "07/12/2011",
+            "dob": "07-12-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7560,7 +7560,7 @@ const schoolData = {
                     "General Science": "30",
                     "General Mathematics": "27.0",
                     "Social Science": "29.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "6.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
@@ -7573,7 +7573,7 @@ const schoolData = {
         },
         "51": {
             "name": "MADHOB JYOTI NATH",
-            "dob": "18/05/2011",
+            "dob": "18-05-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7593,7 +7593,7 @@ const schoolData = {
                     "General Science": "32",
                     "General Mathematics": "36.0",
                     "Social Science": "41.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "50.0",
                     "Elective: Healthcare NSQF": "AB"
@@ -7606,7 +7606,7 @@ const schoolData = {
         },
         "52": {
             "name": "MANUJIT DOLEY",
-            "dob": "26/01/2010",
+            "dob": "26-01-2010",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7626,7 +7626,7 @@ const schoolData = {
                     "General Science": "35",
                     "General Mathematics": "34.0",
                     "Social Science": "42.0",
-                    "Elective: Hindi": "0",
+                    "Elective: Hindi": "0.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "62.0"
@@ -7639,7 +7639,7 @@ const schoolData = {
         },
         "53": {
             "name": "MADHURJYA DOLEY",
-            "dob": "08/03/2011",
+            "dob": "08-03-2011",
             "exams": [],
             "subjects": [
                 "Assamese",
@@ -7659,7 +7659,7 @@ const schoolData = {
                     "General Science": "31",
                     "General Mathematics": "38.0",
                     "Social Science": "44.0",
-                    "Elective: Hindi": "47",
+                    "Elective: Hindi": "47.0",
                     "Elective: History": "0.0",
                     "Elective: Agriculture & Horticulture NSQF": "AB",
                     "Elective: Healthcare NSQF": "AB"
